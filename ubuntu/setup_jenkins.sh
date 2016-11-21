@@ -5,4 +5,4 @@ sudo echo "deb http://pkg.jenkins-ci.org/debian-stable binary/" >> /etc/apt/sour
 
 sudo apt-get update
 sudo apt-get install jenkins
-sudo service jenkins restart
+
