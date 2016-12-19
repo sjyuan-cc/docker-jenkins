@@ -14,7 +14,7 @@ docker run -d --name $CONTAINER_JENKINS_SERVER \
  -p 8080:8080 \
  -v /var/run/docker.sock:/var/run/docker.sock:ro \
  -v /usr/local/bin/docker-compose:/usr/local/bin/docker-compose:ro \
- -v $HOME/.ssh/primero-aws.pem:/root/.ssh/primero-aws.pem \
+ -v $HOME/.ssh/aws.pem:/root/.ssh/aws.pem \
  -v $JENKINS_HOME:$JENKINS_HOME \
  $IMAGE_JENKINS
 
